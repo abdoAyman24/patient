@@ -21,5 +21,69 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ar';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "dontHaveAccont": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account? ",
+    ),
+    "forgetPassword": MessageLookupByLibrary.simpleMessage(
+      "نسيت كلمة المرور ؟",
+    ),
+    "haveAnAccount": MessageLookupByLibrary.simpleMessage("لديك حساب بالفعل؟ "),
+    "onBordingWelcome": MessageLookupByLibrary.simpleMessage(
+      "حسّن يوم عملك في العيادة",
+    ),
+    "onBordingWelcome2": MessageLookupByLibrary.simpleMessage("بالتأكيد"),
+    "signIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "signInButtom": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "signInEmailTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "البريد الإلكترونى",
+    ),
+    "signInEmailTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "أدخل البريد الإلكترونى",
+    ),
+    "signInHeader": MessageLookupByLibrary.simpleMessage("سجل الدخول لحسابك"),
+    "signInPasswordTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور",
+    ),
+    "signInPasswordTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "أدخل كلمة المرور",
+    ),
+    "signInSubTitle": MessageLookupByLibrary.simpleMessage(
+      "أدخل البريد الالكترونى و كلمه المرور لتسجيل الدخول",
+    ),
+    "signUp": MessageLookupByLibrary.simpleMessage("اشتراك"),
+    "signUpBirthDayTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "تاريخ الميلاد",
+    ),
+    "signUpBirthDayTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "٠١/٠٢/٢٠٠١",
+    ),
+    "signUpButtom": MessageLookupByLibrary.simpleMessage("تسجيل حساب "),
+    "signUpEmailTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "البريد الإلكترونى",
+    ),
+    "signUpEmailTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "أدخل البريد الإلكترونى",
+    ),
+    "signUpHeader": MessageLookupByLibrary.simpleMessage("تسجيل حساب جديد"),
+    "signUpNameTextFormHeader": MessageLookupByLibrary.simpleMessage("الأسم "),
+    "signUpNameTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "أدخل الاسم بالكامل",
+    ),
+    "signUpPasswordTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور",
+    ),
+    "signUpPasswordTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "أدخل كلمة المرور",
+    ),
+    "signUpPhoneNumberTextFormHeader": MessageLookupByLibrary.simpleMessage(
+      "رقم الهاتف",
+    ),
+    "signUpPhoneNumberTextFormHint": MessageLookupByLibrary.simpleMessage(
+      "(٤٥٤) ٧٢٦-٠٥٩٢",
+    ),
+    "signUpSubTitle": MessageLookupByLibrary.simpleMessage(
+      "سجل حساب جديد للأستمرار",
+    ),
+  };
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:patient/core/utils/app_color.dart';
 
-final ThemeData AppTheme = ThemeData(
+final ThemeData appTheme = ThemeData(
   fontFamily: 'cairo',
   primaryColorDark: AppColor.primary,
   brightness: Brightness.dark,
@@ -11,10 +11,14 @@ final ThemeData AppTheme = ThemeData(
     primary: Color(0xFF00A6FF),
     secondary: Color(0xFF007BFF),
     surface: Colors.black,
+    error: AppColor.error,
+
   ),
+
   inputDecorationTheme: InputDecorationTheme(
     filled: true,
-    fillColor: Colors.white,
+    iconColor: AppColor.iconColor,
+    fillColor: AppColor.textFormColor,
 
     hintStyle: TextStyle(color: const Color(0xFFC4C4C4)),
     labelStyle: const TextStyle(color: Colors.white),

@@ -1,5 +1,37 @@
 {
-    "pageHomeConfirm": "Confirm",
-    "pageHomeWelcome": "Welcome {name}"
+    "-onbording": "///onBording////////////////////////",
+        "onBordingWelcome": "Streamline Your Clinic Day",
+        "onBordingWelcome2": "Swift & Sure",
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+   
+        "-signIn": "///SignIn//////////////////////////",
+        "signInHeader": "Sign in to your Account",
+        "signInSubTitle": "Enter your email and password to log in",
+        "signInEmailTextFormHeader": "Email",
+        "signInEmailTextFormHint": "Enter your Email",
+        "signInPasswordTextFormHeader": "Password",
+        "signInPasswordTextFormHint": "Enter your Password",
+        "forgetPassword": "Forgot Password ?",
+        "signInButtom": "Sign In",
+        "dontHaveAccont": "Don't have an account? ",
+         "-signUp": "///SignUp//////////////////////////",
+     "signUpHeader": "Sign up",
+        "signUpSubTitle": "Create an account to continue!",
+         "signUpNameTextFormHeader":"Full Name",
+        "signUpNameTextFormHint":"Enter Your Name",
+        "signUpEmailTextFormHeader": "Email",
+        "signUpEmailTextFormHint": "Enter Your Email",
+        "signUpPasswordTextFormHeader":"Set Password",
+        "signUpPasswordTextFormHint":"Enter Your Password",
+         "signUpBirthDayTextFormHeader": "Birth of Date",
+        "signUpBirthDayTextFormHint": "Enter Your Birth day",
+         "signUpPhoneNumberTextFormHeader": "Phone Number",
+        "signUpPhoneNumberTextFormHint": "(454) 726-0592",
+        
+        "signUpButtom": "Register",
+        "haveAnAccount":"Already have an account? "
+
+
     
 }

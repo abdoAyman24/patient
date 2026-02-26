@@ -30,27 +30,25 @@ environment:
 dependencies:
   bloc: ^9.1.0
   cached_network_image: ^3.4.1
-  cloud_firestore: ^6.0.1
   cupertino_icons: ^1.0.8
   dartz: ^0.10.1
   dio: ^5.9.1
   equatable: ^2.0.7
-  firebase_app_check: ^0.4.0+1
-  firebase_auth: ^6.0.2
-  firebase_core: ^4.1.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
   flutter_facebook_auth: ^7.1.2
+  flutter_localizations:
+    sdk: flutter
   flutter_paypal_payment: ^1.0.8
   flutter_screenutil: ^5.9.3
   flutter_stripe: ^12.2.0
   flutter_svg: ^2.2.0
   flutter_svg_provider: ^1.0.7
-  google_sign_in: ^6.3.0
-  flutter_localization: ^0.3.3
   get_it: ^9.2.1
+  google_sign_in: ^6.3.0
   intl: ^0.20.2
+  intl_phone_number_input: ^0.7.5
   intl_utils: ^2.8.14
   shared_preferences: ^2.5.4
   skeletonizer: ^2.1.3

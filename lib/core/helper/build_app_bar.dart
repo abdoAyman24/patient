@@ -6,6 +6,7 @@ AppBar buildAppBar({String? tilte}) {
     title: Text(tilte ?? '', style: AppText.medium25),
     centerTitle: true,
     backgroundColor: Colors.transparent,
+    
     elevation: 0,
   );
 }

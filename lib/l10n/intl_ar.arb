@@ -1,1 +1,38 @@
-{}
+{
+
+    "-onbording": "///onBording////////////////////////",
+        "onBordingWelcome": "حسّن يوم عملك في العيادة",
+        "onBordingWelcome2": "بالتأكيد",
+        "signIn": "تسجيل الدخول",
+        "signUp": "اشتراك",
+    
+     "-signIn": "///SignIn//////////////////////////",
+        "signInHeader": "سجل الدخول لحسابك",
+        "signInSubTitle": "أدخل البريد الالكترونى و كلمه المرور لتسجيل الدخول",
+        "signInEmailTextFormHeader": "البريد الإلكترونى",
+        "signInEmailTextFormHint": "أدخل البريد الإلكترونى",
+        "signInPasswordTextFormHeader": "كلمة المرور",
+        "signInPasswordTextFormHint": "أدخل كلمة المرور",
+        "forgetPassword": "نسيت كلمة المرور ؟",
+        "signInButtom": "تسجيل الدخول",
+        "dontHaveAccont": "Don't have an account? ",
+     "-signUp": "///SignUp//////////////////////////",
+     "signUpHeader": "تسجيل حساب جديد",
+        "signUpSubTitle": "سجل حساب جديد للأستمرار",
+         "signUpNameTextFormHeader": "الأسم ",
+        "signUpNameTextFormHint":"أدخل الاسم بالكامل",
+        "signUpEmailTextFormHeader": "البريد الإلكترونى",
+        "signUpEmailTextFormHint": "أدخل البريد الإلكترونى",
+        "signUpPasswordTextFormHeader": "كلمة المرور",
+        "signUpPasswordTextFormHint": "أدخل كلمة المرور",
+
+         "signUpBirthDayTextFormHeader": "تاريخ الميلاد",
+        "signUpBirthDayTextFormHint": "٠١/٠٢/٢٠٠١",
+         "signUpPhoneNumberTextFormHeader": "رقم الهاتف",
+        "signUpPhoneNumberTextFormHint": "(٤٥٤) ٧٢٦-٠٥٩٢",
+
+        "signUpButtom": "تسجيل حساب ",
+        "haveAnAccount":"لديك حساب بالفعل؟ "
+
+    
+}
